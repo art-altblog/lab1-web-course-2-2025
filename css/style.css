@@ -77,14 +77,14 @@
     position: absolute;
     left: 115px;
 }
-.about.desc{
+.about .desc{
     padding: 2em;
     border-left:4px solid #10188c;
 }
-.about.desc h3{
+.about .desc h3{
     color: #10188C;
 }
-.about.desc p{
+.about .desc p{
     line-height:2;
     color: #888;
 }
