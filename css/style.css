@@ -1,0 +1,90 @@
+.navbar{
+    background: #b6d69a;
+}
+.nav-link , .navbar-brand{
+    color: #F97300;
+    cursor: pointer;
+    margin-left: 1em;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    background: #b200ff;
+    color: #ffd800;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background: #ffffff !important;
+}
+/*header style*/
+.header {
+    position: relative;
+    background-image: url('../images/photo_2025-03-16_19-01-39.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+
+.overplay{ /* пункт 3.3 */
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.5);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+    color:#F97300;
+}
+.description p{
+    color:#474747;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+    margin: 0 auto; /* Для выравнивания по центру */
+}
+.description button{
+    border:1px solid #F97300;
+    background:#F97300;
+    color:#fff;
+}
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+} 
+.about h1{
+    color:#F97300;
+    margin: 2em;
+}
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+    display: block;
+    color:#888;
+    position: absolute;
+    left: 115px;
+}
+.about.desc{
+    padding: 2em;
+    border-left:4px solid #10188c;
+}
+.about.desc h3{
+    color: #10188C;
+}
+.about.desc p{
+    line-height:2;
+    color: #888;
+}
