@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
   <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <!--navbar-->
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
@@ -25,10 +26,10 @@
             <a class="nav-link" href="#carouselExampleCaptions"><i class="bi bi-backpack4-fill"></i>Портфолио</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-tags-fill"></i>Цены</a>
+            <a class="nav-link" href="#price"><i class="bi bi-tags-fill"></i>Цены</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-person-lines-fill"></i>Контакты</a>
+            <a class="nav-link" href="#contacts"><i class="bi bi-person-lines-fill"></i>Контакты</a>
           </li>
         </ul>
       </div>
@@ -81,22 +82,22 @@
       <div class="carousel-item active">
         <img src="images/f8c0b1c43b885b2ffe395f5c3d0627b4.jpg" class="d-block w-100" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Как меня это заебало</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h5>Есть два типа людей: те, кто заряжает оружие... и те, кто роет себе могилу</h5>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="images/photo_2025-03-16_19-01-39.jpg" class="d-block w-100" alt="Second slide">
+        <img src="images/ожидание.webp" class="d-block w-100" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <h5 class="custom-title">Анимация ожидания в игре</h5>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="images/VKAsZeWKrsE.jpg" class="d-block w-100" alt="Third slide">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h5>Твою ж милашку!</h5>
+          <p></p>
         </div>
       </div>
     </div>
@@ -108,6 +109,67 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+  </div>
+  
+  <div class="row price_list" id="price">
+    <h1 class="text-center">Прайс-лист</h1>
+    <p class="text-center">У нас богатый выбор услуг</p>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/бутхилл атата.webp" class="card-img-top" alt="...">
+          <h5 class="card-title">Награда за голову</h5>
+          <p class="card-text">50000000000000000</p>
+          <a href="#" class="btn btn-primary">Оплатить</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/бутхилл02.webp" class="card-img-top" alt="...">
+          <h5 class="card-title">Награда за голову</h5>
+          <p class="card-text">500000000000000000000</p>
+          <a href="#" class="btn btn-primary">Оплатить</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/бутхилл06.webp" class="card-img-top" alt="...">
+            <h5 class="card-title">Награда за голову</h5>
+            <p class="card-text">7000000000000000000000000</p>
+            <a href="#" class="btn btn-primary">Оплатить</a>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+  <div class="container contacts" id="contacts">
+  <h1>Связаться</h1>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Ваша почта</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Комментарии</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary mb-3">Отправить</button>
+  </div>
+  
+  <footer class="footer mt-auto py-3" style="background:#F97300;">
+    <div class="container">
+    <p class="text-center text-white lead">Copyright &copy; <script type="text/javascript">
+    document.write(new Date().getFullYear());
+    </script> КММ</p>
+    </div>
+    </footer>
+
   </div>
   </body>
 </html>

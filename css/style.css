@@ -88,3 +88,23 @@
     line-height:2;
     color: #888;
 }
+.custom-title {
+    color: #474747; /* Замените на желаемый цвет */
+}
+.card-text {
+    font-size:xx-large;
+}
+.price_list{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+.price_list h1{
+    color:#F97300;
+}
+.card{
+    text-align: center; 
+}
+.contacts h1{
+    color:#F97300;
+}
